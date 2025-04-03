@@ -1,0 +1,44 @@
+.custom-table-wrapper {
+    width: 100%;
+    color: black;
+  }
+  
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+  }
+  
+  .error-text {
+    color: #d9534f;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    padding: 8px;
+    border: 1px solid rgb(222, 226, 230);
+    text-align: left;
+  }
+  
+  .custom-table th {
+    font-weight: 700;
+  }
+  
+  .no-results-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #999;
+    font-style: italic;
+    text-align: center;
+  }
