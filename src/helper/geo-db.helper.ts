@@ -1,5 +1,5 @@
 // geo-db.helpers.ts
-import { GeoDBCityResponse } from './geo-db.dto';
+import { GeoDBCityResponse } from '../dto/geo-db.dto';
 
 /**
  * Extracts pagination information from response
